@@ -109,7 +109,9 @@ export default function Dice(){
 
 
 
-    
+    const styles = {
+        color : "gold" 
+    }
     return (
         <>
 
@@ -124,6 +126,7 @@ export default function Dice(){
                 className = "roll-button"
                 disabled = {isWon}
                 onClick = {roll}
+                style = {isWon?styles : {}}
                 
                 >
                     {isWon?"You Won" :"Roll"}
