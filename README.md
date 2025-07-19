@@ -2,6 +2,9 @@
 
 This is a simple dice game built using **React** while following a tutorial by **Bob Ziroll** on the freeCodeCamp YouTube channel.
 
+👉 **Live Demo:** [Play on GitHub Pages](https://harsh-sharawat.github.io/Tenzies_game/)
+
+
 ## 🚀 Features
 
 - Roll 10 dice until all values match
